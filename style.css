@@ -1,3 +1,82 @@
-p {
-    color:black;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    font-style: italic;
+    color: #ddd;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+/* About Image */
+img {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #666;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+}
+th {
+    background: #ddd;
+}
+
+/* Skills List */
+.skills li {
+    list-style-type: square;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
